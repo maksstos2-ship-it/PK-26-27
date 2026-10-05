@@ -6,7 +6,11 @@ using namespace std;
    
 int main() {
 
-    cout << "Witaj świecie!!!" << endl;
+    string imie;
+
+    cout << "Podaj imie: ";
+    cin >> imie;
+    cout << "Siema " << imie << endl;
 
     return 0;
 }
